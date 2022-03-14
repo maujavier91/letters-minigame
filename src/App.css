@@ -3,10 +3,10 @@
   padding-bottom: 2em;
   display: grid;
   grid-template-areas:
-    ". board board board . . reset ."
-    ". board board board . . . ."
-    ". board board board . . . ."
-    ". board board board selection selection selection .";
+    " board board board . reset . ."
+    " board board board . . . ."
+    " board board board . . . ."
+    " board board board selection selection . .";
 }
 
 @media screen and (max-width: 600px) {
@@ -19,5 +19,14 @@
       ". board board ."
       ". selection selection .";
       height: 100%;
+  }
+}
+
+@media screen and (min-width:601px) {
+  .App{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
