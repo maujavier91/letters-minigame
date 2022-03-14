@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./Tile.css";
 
 type Props = {
