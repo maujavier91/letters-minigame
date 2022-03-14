@@ -119,3 +119,10 @@ We will evaluate the following aspects of your deliverable:
 
 ## Thanks for your time!
 The Enara Health team!
+
+## Instructions
+
+ - Clone the project
+ - Use command `npm install` to install dependencies (use node version higher than v16)
+ - use command `npm start`
+

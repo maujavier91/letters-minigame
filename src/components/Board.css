@@ -1,0 +1,108 @@
+:root {
+  --board-size: 4;
+}
+
+.board {
+  display: grid;
+  grid-template-rows: repeat(var(--board-size), 1fr);
+  grid-template-columns: repeat(var(--board-size), 1fr);
+  gap: calc(4em/var(--board-size));
+  margin: auto;
+  grid-area: board;
+}
+
+@media screen and (max-width: 600px) {
+  .board{
+    gap: calc(20vw/(1.5*var(--board-size)));
+  }
+  
+}
+.validator.valid {
+  color: rgba(178, 235, 80, 0.5);
+  font-weight: 400;
+}
+
+.validator.invalid {
+  color: rgba(233, 73, 89, 0.5);
+  font-weight: 400;
+}
+.selection-word.valid {
+  color: rgb(179, 235, 80);
+}
+.selection-word.invalid {
+  color: rgb(233, 73, 89);
+}
+.selection-word {
+  margin-right: auto;
+  word-break: break-all;
+}
+.box {
+  border: solid gray 2px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  font-size: 2em;
+  font-weight: 700;
+  grid-area: selection;
+  margin: 0 0 auto 0;
+}
+
+@media screen and (max-width: 600px) {
+  .box{
+    margin: 1em auto;
+    width: 45vw;
+    font-size: 5vw;
+    padding: 0.5em 1.5em;
+  }
+}
+.validator {
+  margin-left: 1rem;
+  font-size: 1rem;
+}
+
+.hidden{
+  visibility: hidden
+}
+
+.circle{
+  font-size: 0.4rem;
+  border-radius: 100%;
+  width: 5em;
+  height: 5em;
+  background-color: rgb(200, 200, 200);
+  position: relative;
+  margin-left: 2em;
+}
+
+.circle .diagonal-bar{
+
+  background-color: white;
+  height: 3.5em;
+  width: 0.2em;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  
+}
+
+.button{
+  color: rgb(200, 200, 200);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  cursor: pointer;
+  grid-area: reset;
+  margin: 0 0 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .button{
+    margin: 0 10vw 2vw auto;
+  }
+}
+.circle .diagonal-bar.left{
+  transform: translate(-50%,-50%) rotate(45deg);
+}
+.circle .diagonal-bar.right{
+  transform: translate(-50%,-50%) rotate(-45deg);
+}

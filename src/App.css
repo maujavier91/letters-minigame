@@ -1,0 +1,22 @@
+.App {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: grid;
+  grid-template-areas:
+    ". board board board . . reset ."
+    ". board board board . . . ."
+    ". board board board . . . ."
+    ". board board board selection selection selection .";
+}
+
+@media screen and (max-width: 600px) {
+  .App {
+    grid-template-areas:
+      ". reset reset . "
+      ". board board ."
+      ". board board ."
+      ". board board ."
+      ". board board ."
+      ". selection selection .";
+  }
+}
