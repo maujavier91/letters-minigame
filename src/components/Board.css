@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 600px) {
   .board{
-    gap: calc(20vw/(1.5*var(--board-size)));
+    gap: calc(20vw/(3*var(--board-size)));
   }
   
 }
@@ -52,7 +52,7 @@
     margin: 1em auto;
     width: 45vw;
     font-size: 5vw;
-    padding: 0.5em 1.5em;
+    padding: 0.1em 1.5em;
   }
 }
 .validator {

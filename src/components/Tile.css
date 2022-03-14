@@ -17,10 +17,10 @@
 
 @media screen and (max-width: 600px) {
     .tile{
-        height: calc(60vw/(1.3*var(--board-size)));
-        width: calc(60vw/(1.3*var(--board-size)));
+        height: calc(60vw/(1.2*var(--board-size)));
+        width: calc(60vw/(1.2*var(--board-size)));
         border-radius: 15%;
-        font-size: calc(40vw/(1.3*var(--board-size)));
+        font-size: calc(40vw/(1.2*var(--board-size)));
     }
 }
 
