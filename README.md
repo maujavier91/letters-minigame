@@ -66,11 +66,11 @@ If the user clicks the reset button, the board is reset.
 
 	- Layour for mobile media:
 
-		![Mobile dimensions.](./files/mobile.png)
+		![Mobile dimensions.](./src/files/mobile.png)
 
 	- Layout for desktop media (ReactJS only):
 
-		![Desktop dimensions.](./files/desktop.png)
+		![Desktop dimensions.](./src/files/desktop.png)
 		
 ---
 
