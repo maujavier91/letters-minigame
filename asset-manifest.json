@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/letters-minigame/static/css/main.9382e714.css",
+    "main.js": "/letters-minigame/static/js/main.2ae55c87.js",
+    "index.html": "/letters-minigame/index.html",
+    "main.9382e714.css.map": "/letters-minigame/static/css/main.9382e714.css.map",
+    "main.2ae55c87.js.map": "/letters-minigame/static/js/main.2ae55c87.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9382e714.css",
+    "static/js/main.2ae55c87.js"
+  ]
+}
