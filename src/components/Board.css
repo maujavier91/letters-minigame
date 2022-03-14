@@ -15,7 +15,11 @@
   .board{
     gap: calc(20vw/(3*var(--board-size)));
   }
-  
+}
+@media screen and (min-width: 601px) {
+  .board{
+    margin-right: -7em;
+  }
 }
 .validator.valid {
   color: rgba(178, 235, 80, 0.5);
@@ -44,7 +48,8 @@
   font-size: 2em;
   font-weight: 700;
   grid-area: selection;
-  margin: 0 0 auto 0;
+  margin: 0 0 0 auto;
+  width: 10em;
 }
 
 @media screen and (max-width: 600px) {
