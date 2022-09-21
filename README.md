@@ -1,8 +1,8 @@
-# Enara Health • Fullstack Interview • Letters game!
+# Fullstack Interview • Letters game!
 
 *Version 1.4*
 
-## This is a coding challenge for applicants interested in joining Enara Health.
+## This is a coding challenge.
 
 We ask you to *read this file completetly* **before** you begin working on your solution. 
 After reading all the instructions, please **estimate** when you expect to complete and deliver your solution and **send us a brief note**.
@@ -14,7 +14,7 @@ We sincerely thank you for your interest and your time.
 
 Good luck! 
 
-The Enara Health team!
+
 
 ## Create a React JS or React Native app
 
@@ -117,8 +117,7 @@ We will evaluate the following aspects of your deliverable:
     - However, a complete solution will increase the likelihood of being selected, and it will save time during our in-person interview. 
 
 
-## Thanks for your time!
-The Enara Health team!
+
 
 ## Instructions
 
